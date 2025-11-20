@@ -1,109 +1,100 @@
-📱 Student Helper App
+📱 Student Helper App – UTS Pemrograman Mobile 2
 
-Aplikasi mobile berbasis Flutter yang membantu mahasiswa mengakses informasi penting kampus seperti lokasi kampus, daftar informasi akademik, menu navigasi, dan halaman profil aplikasi.
+Aplikasi ini dibuat untuk memenuhi UTS mata kuliah Pemrograman Mobile 2.
+Aplikasi menggunakan Flutter dan beberapa fitur modern yang memudahkan mahasiswa dalam mendapatkan informasi kampus.
 
-✨ Fitur Utama
-🔹 1. Splash Screen
+🚀 Fitur Utama Aplikasi
+✔ 1. SplashScreen Modern
 
-Tampilan awal aplikasi dengan animasi sederhana bertema Student Helper App.
+Tampilan awal aplikasi
 
-🔹 2. Login
+Menggunakan gradient + icon + judul aplikasi
 
-Form sederhana untuk proses masuk aplikasi.
-Tidak menggunakan backend — hanya navigasi ke Home.
+Navigasi otomatis ke halaman login
 
-🔹 3. Register
+✔ 2. Halaman Login
 
-Form pendaftaran dengan validasi dasar dan navigasi kembali ke halaman login.
+Login menggunakan data yang sudah diregistrasi
 
-🔹 4. Map (Lokasi Kampus)
+Desain modern, clean & rapi
 
-Menggunakan library:
+Validasi sederhana
 
-flutter_map
+✔ 3. Halaman Register
 
+Input: Nama, Email, Password
 
-Menampilkan lokasi Institut Teknologi Bandung (ITB) di peta.
+Data tersimpan menggunakan SharedPreferences
 
-🔹 5. Halaman Informasi
+Navigasi otomatis kembali ke Login
 
-List informasi berbentuk ListView yang berisi beberapa info akademik/kemahasiswaan.
+✔ 4. Library Flutter (WAJIB UTS)
 
-🔹 6. Sidebar Navigation (Drawer)
+Aplikasi ini menggunakan library:
 
-Navigasi utama:
+🗺 Flutter Map (flutter_map)
+
+Digunakan untuk menampilkan:
+
+Peta kampus
+
+Marker lokasi
+
+Map Zoom
+
+Drawer Navigation
+
+Lokasi kampus yang digunakan:
+Institut Teknologi Bandung (ITB)
+Latlong: (-6.8904, 107.6103)
+
+✔ 5. Halaman List Informasi
+
+Menggunakan ListView + Card
+
+Berisi info kampus, jadwal, tips belajar, dan layanan kampus
+
+✔ 6. Sidebar Navigation (Drawer)
+
+Terdiri dari:
 
 Home
 
-Map
+Map Kampus
 
-Info
+Info Mahasiswa
 
-About
+Tentang Aplikasi
 
 Logout
 
-🔹 7. About App
+✔ 7. Halaman About
 
-Berisi informasi aplikasi dan copyright:
+Berisi:
 
-Copyright © Daniel – NPM *******55
+Nama aplikasi
 
-🧩 Library yang Digunakan
-📌 flutter_map
+Versi
 
-Untuk menampilkan peta OpenStreetMap dan menandai lokasi kampus UTB.
+Deskripsi
 
-Install melalui:
-
-dependencies:
-  flutter_map: ^7.0.2
-  latlong2: ^0.9.0
-
-📂 Struktur Folder Project
-lib/
- ├── main.dart
- ├── screens/
- │    ├── splash_screen.dart
- │    ├── login_screen.dart
- │    ├── register_screen.dart
- │    ├── home_screen.dart
- │    ├── map_screen.dart
- │    ├── info_screen.dart
- │    ├── about_screen.dart
- ├── utils/
- │    └── app_routes.dart
- └── widgets/
-
-🖼️ Screenshots
-📌 Splash & Login
-Splash	Login
-<img src="screenshots/splash%20screen.webp" width="250">	<img src="screenshots/login.webp" width="250">
-📌 Register & Menu
-Register	Menu
-<img src="screenshots/register.webp" width="250">	<img src="screenshots/menu.webp" width="250">
-📌 Map & Info
-Map	Info
-<img src="screenshots/map.webp" width="250">	<img src="screenshots/info.webp" width="250">
-📌 About
-<img src="screenshots/about.webp" width="250">
-▶️ Cara Menjalankan Project
-
-Clone repository:
-
-git clone https://github.com/NAMA-USER/uts_pemmob2_daniel.git
+Copyright by Daniel – NPM xx…55
 
 
-Masuk ke folder project:
+# 📱 Screenshots
 
-cd uts_pemmob2_daniel
+| Splash | Login |
+|--------|--------|
+| <img src="screenshots/splash%20screen.webp" width="250"> | <img src="screenshots/login.webp" width="250"> |
 
+| Register | Menu |
+|--------|--------|
+| <img src="screenshots/register.webp" width="250"> | <img src="screenshots/menu.webp" width="250"> |
 
-Install dependencies:
+| Info | About |
+|--------|--------|
+| <img src="screenshots/info.webp" width="250"> | <img src="screenshots/about.webp" width="250"> |
 
-flutter pub get
-
-
-Jalankan aplikasi:
-
-flutter run
+| Map |
+|--------|
+| <img src="screenshots/map.webp" width="250"> |
