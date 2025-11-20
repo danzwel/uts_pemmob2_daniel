@@ -29,7 +29,7 @@ Data tersimpan menggunakan SharedPreferences
 
 Navigasi otomatis kembali ke Login
 
-✔ 4. Library Flutter (WAJIB UTS)
+✔ 4. Library Flutter
 
 Aplikasi ini menggunakan library:
 
