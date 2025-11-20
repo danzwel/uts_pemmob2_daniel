@@ -82,4 +82,19 @@ Deskripsi
 Copyright by Daniel – NPM xx…55
 
 
-*Screenshots*
+**Screenshots
+**
+
+# 📱 Screenshots
+
+| Splash | Login |
+|--------|--------|
+| <img src="screenshots/splash%20screen.webp" width="250"> | <img src="screenshots/login.webp" width="250"> |
+
+| Register | Menu |
+|--------|--------|
+| <img src="screenshots/register.webp" width="250"> | <img src="screenshots/menu.webp" width="250"> |
+
+| Info | About |
+|--------|--------|
+| <img src="screenshots/info.webp" width="250"> | <img src="screenshots/about.webp" width="250"> |
