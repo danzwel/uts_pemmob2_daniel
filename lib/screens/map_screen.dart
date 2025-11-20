@@ -32,7 +32,7 @@ class _MapScreenState extends State<MapScreen> {
       drawer: _buildDrawer(context),
 
       appBar: AppBar(
-        title: Text("Map Kampus UTB"),
+        title: Text("Map Kampus ITB"),
         backgroundColor: Colors.blueAccent,
       ),
 
