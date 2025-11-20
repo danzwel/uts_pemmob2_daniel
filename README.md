@@ -98,3 +98,7 @@ Copyright by Daniel – NPM xx…55
 | Info | About |
 |--------|--------|
 | <img src="screenshots/info.webp" width="250"> | <img src="screenshots/about.webp" width="250"> |
+
+| Map |
+|--------|
+| <img src="screenshots/map.webp" width="250"> |
