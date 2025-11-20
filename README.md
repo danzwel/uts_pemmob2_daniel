@@ -4,6 +4,7 @@ Aplikasi ini dibuat untuk memenuhi UTS mata kuliah Pemrograman Mobile 2.
 Aplikasi menggunakan Flutter dan beberapa fitur modern yang memudahkan mahasiswa dalam mendapatkan informasi kampus.
 
 🚀 Fitur Utama Aplikasi
+
 ✔ 1. SplashScreen Modern
 
 Tampilan awal aplikasi
